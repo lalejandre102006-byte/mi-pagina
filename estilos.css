@@ -1,0 +1,79 @@
+/* Estilos para todo el sitio Turismo Mundial */
+
+/* Fondo y letra de toda la página */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #e8f6f8;   /* azul cielo claro */
+  color: #333333;
+  margin: 0;
+}
+
+/* Encabezado: azul mar */
+header {
+  background-color: #0077b6;
+  color: white;
+  text-align: center;
+  padding: 25px;
+}
+
+/* Contenido principal centrado */
+main {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 0 15px;
+}
+
+/* Cada sección es una "tarjeta" blanca */
+section {
+  background-color: white;
+  border-left: 6px solid #2a9d8f;   /* verde naturaleza */
+  border-radius: 6px;
+  padding: 15px 20px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  color: #0077b6;
+}
+
+/* Enlaces */
+a {
+  color: #e76f51;   /* naranja atardecer */
+  font-weight: bold;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+header a {
+  color: #ffe8a3;
+}
+
+/* Lista de continentes de la página principal */
+.continentes {
+  list-style: none;
+  padding: 0;
+}
+
+.continentes li {
+  background-color: #fff3d6;   /* arena */
+  margin: 10px 0;
+  padding: 12px;
+  border-radius: 6px;
+  font-size: 20px;
+  text-align: center;
+}
+
+/* Pie de página */
+footer {
+  background-color: #023e5a;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
+
+footer a {
+  color: #ffe8a3;
+}
